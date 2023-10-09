@@ -1,14 +1,12 @@
-package org.example.controller;
+package org.manash.alert.controller;
 import java.sql.Timestamp;
 import java.util.List;
-import java.util.Map;
 import javax.validation.Valid;
 
-import org.example.entity.Alert;
-import org.hibernate.cache.spi.support.AbstractReadWriteAccess;
+import org.manash.alert.entity.Alert;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import org.example.service.AlertService;
+import org.manash.alert.service.AlertService;
 
 // Annotation
 @RestController

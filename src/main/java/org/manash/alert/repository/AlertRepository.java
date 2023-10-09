@@ -1,7 +1,7 @@
-package org.example.repository;
+package org.manash.alert.repository;
 
 
-import org.example.entity.Alert;
+import org.manash.alert.entity.Alert;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;

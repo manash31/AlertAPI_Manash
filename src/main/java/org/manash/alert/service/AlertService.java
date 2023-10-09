@@ -1,9 +1,7 @@
-package org.example.service;
+package org.manash.alert.service;
 
 
-import org.example.entity.Alert;
-import org.springframework.data.jpa.repository.Query;
-import org.springframework.data.repository.query.Param;
+import org.manash.alert.entity.Alert;
 
 import java.sql.Timestamp;
 import java.util.List;

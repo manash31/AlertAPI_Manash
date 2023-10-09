@@ -1,4 +1,4 @@
-package org.example.entity;
+package org.manash.alert.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

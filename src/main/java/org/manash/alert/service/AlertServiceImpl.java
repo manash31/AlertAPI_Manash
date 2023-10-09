@@ -1,11 +1,11 @@
-package org.example.service;
+package org.manash.alert.service;
 
-import org.example.entity.Alert;
+import org.manash.alert.entity.Alert;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Service;
-import org.example.repository.AlertRepository;
+import org.manash.alert.repository.AlertRepository;
 
 import java.sql.Timestamp;
 import java.util.List;
